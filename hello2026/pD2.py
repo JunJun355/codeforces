@@ -45,7 +45,7 @@ for _ in range(t):
         
         # floodfill
         next = [0] * (n + 1)
-        nextlayer = layers[i + 1]
+        nextlayer = set(layers[i + 1])
         # if len(nextlayer) < len(layer):
         #     layer, nextlayer = nextlayer, layer
         picked = dict()
