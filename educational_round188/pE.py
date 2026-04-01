@@ -21,8 +21,9 @@ def solve():
     def check(curr, num):
         nonlocal counts
         if curr == num:
-            
-        for i in range()
+            pass
+        for i in range(0):
+            pass
 
     def search(curr, dig_sum, digs=0, num=0):
         nonlocal counts
